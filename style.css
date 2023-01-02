@@ -1,1 +1,140 @@
-hakim past your styles here 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 0px 5px;
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    height: +90px;
+}
+header h3{
+    color: rgb(239, 204, 204);
+    font-weight:bolder;
+    font-family: sans-serif;
+    margin: 10px;
+}
+header h3:hover{
+   color: red;
+}
+header ul{
+    display: flex;
+    
+}
+header ul li {
+    padding: 0px 20px ;
+    list-style: none;
+    margin: 10px;
+}
+header ul li a{
+    padding: 10px;
+    padding-top: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight:bolder;
+    font-family: sans-serif;
+    transition: 0.5s ;
+    
+}
+header ul li a:hover{
+    padding: 15px;
+    border-bottom: 3px solid whitesmoke;
+    color: gold;
+   
+}
+header ul li input {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+   border: 1px solid green;
+  background-color: gainsboro;
+  
+}
+
+.inside{
+position:absolute;
+top: 500px;
+left: 600px;
+padding-top: 10px;
+}
+.inside h1{
+font-weight: bolder;
+color: green;
+padding-bottom: 10px;
+   
+}
+.inside  h1:hover{
+    font-weight: bolder;
+    color:red;
+       
+}
+.inside  input{
+    padding: 7px;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+    transition:0.5s;
+}
+.inside  input:hover{
+    padding: 7px;
+   color: red;
+   border: 1px solid;
+
+}
+var{
+display: flex;
+border: 1px solid green;
+padding: 10px;
+height: 50px;
+
+}
+var ul{
+list-style: none;
+display: flex;
+}
+var ul li {
+justify-content: space-between;
+}
+
+var ul li a{
+text-decoration: none;
+padding:0px 60px;
+padding-right: 80px;
+position:relative;
+left: 500px;
+font-weight: bolder;
+color: green;
+}
+.menu0{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid  rgb(6, 84, 6);
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    bottom:20px;
+    border-radius: 10px;
+
+}
+.menu00{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid  rgb(6, 84, 6);
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    left:70em;
+    bottom:20px;
+    border-radius: 10px;
+
+}
